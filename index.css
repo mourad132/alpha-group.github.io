@@ -1,0 +1,119 @@
+/* Body */
+body {
+  padding: 10px;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Cabin', sans-serif;
+  text-align: right;
+}
+
+li {
+  font-family: 'Cabin', sans-serif;
+}
+
+.container-fluid {
+  padding-left: auto;
+}
+
+.address-footer p{
+  text-align: center;
+}
+
+.lead {
+  animation-name: fadeIn;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+#contact-us h1 { 
+  margin-top: 20px;
+  text-align: center; 
+}
+
+.col {
+  padding: 50px;
+}
+
+.contact-us-item img{
+  width: 40px;
+  height: 40px;
+  margin: 30px 0;
+}
+
+.contact-us-item h3 {
+  display: inline;
+  font-size: 20px;
+}
+
+.card {
+  margin-bottom: 150px;
+}
+
+div a {
+  font-family: 'Roboto';
+}
+
+/* Info Bar */
+.info-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.info-bar h4 {
+  font-size: 20px;
+}
+
+/* Products */
+.product {
+  text-align: center
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-img-top {
+  padding: 0;
+}
+
+.card-img-top img {
+  padding: 0;
+}
+
+.mission, .vision{
+  height: 50vh;
+  width: 50vw;
+}
+
+.mission div, .vision div {
+  margin-bottom: 25px;
+  animation-name: fadeIn;
+  animation-duration: 6s;
+}
+
+.mission-vision-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  min-height: max-content;
+}
+
+#contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
